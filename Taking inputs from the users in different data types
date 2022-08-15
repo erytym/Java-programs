@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class CWH_05_TakingInputFromUser {
+    public static void main(String[] args) {
+        System.out.println("Taking input from the user:");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter number one:");
+        int a = sc.nextInt();
+        System.out.println("Enter number two:");
+        int b = sc.nextInt();
+        int sum = a+b;
+        System.out.println("The sum of these numbers is:");
+        System.out.println(sum);
+        System.out.println("Enter first float number:");
+        float c = sc.nextFloat();
+        System.out.println("Enter second float number:");
+        float d = sc.nextFloat();
+        float add = c+d;
+        System.out.println("The added float number is:");
+        System.out.println(add);
+
+    }
+}
