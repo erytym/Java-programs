@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Practice_set2 {
+    public static void main(String[] args) {
+        
+        Question q: What will be the result of the following expression
+         float a = 7/4* 9/2;
+        float a = 7/4*9/3;
+        System.out.println(a);
+        
+        Question 2: Use comarison operators to find out
+         whether a given number is greater than
+        the user entered number or not
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number you want to campare:");
+        int a = sc.nextInt();
+
+        System.out.println(a>8);
+
+
+    }
+
+}
