@@ -1,0 +1,23 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class CalculateCGPA {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your Physics marks:");
+        int physics = sc.nextInt();
+        System.out.println("Enter your English marks:");
+        int english = sc.nextInt();
+        System.out.println("Enter your Chemistry marks:");
+        int chemistry = sc.nextInt();
+        System.out.println("Enter your Math marks:");
+        int math = sc.nextInt();
+        System.out.println("Enter your CS marks:");
+        int cs = sc.nextInt();
+
+        float percentage = ((physics + english + chemistry + math+ cs)/ 500.0f)*100;
+
+        System.out.println("Percentage:");
+        System.out.println(percentage);
+    }
+}
