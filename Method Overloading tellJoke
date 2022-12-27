@@ -1,0 +1,10 @@
+public class Method_Overloading {
+    static void tellJoke() {
+        System.out.println("I invented a new world!\n" +
+                "Plagiarism!");
+    }
+
+    public static void main(String[] args) {
+        tellJoke();
+    }
+}
